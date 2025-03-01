@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #000032;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+
+.score{
+    margin: square;
+    color: red;
+    text-align: center;
+    font-size: 40;
+    background-color: black;
+    width: 20vw;
+    height: 20vw;
+    
+}
+
+.vt323-regular {
+  font-family: "VT323", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+button {
+    padding: 2px;
+}
+
