@@ -1,0 +1,58 @@
+@font-face {
+    font-family: DS-DIGII;
+    src: url(/fonts/DS-DIGII.TTF);
+}
+
+body {
+    margin: 0;
+    font-family: orbitron, sans-serif;
+    background: #04024a;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #020131;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto;
+    background: #020131;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.container-header {
+    font-size: 30px;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: auto 2px 2px 2px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+
+#footer {
+    text-align: center;
+    background-color: #050263;
+    margin: 5px auto;
+    width: 150px;
+    padding: 5px;
+    
+}
+
+.num {
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 5px 10px;
+    color: red;
+}
